@@ -8,3 +8,6 @@ if valeur < machine :
 
 elif valeur > machine : 
     print("Le nombre est grand !")
+
+else:
+    print("Bingo ! Vous avez deviné le nombre !")
