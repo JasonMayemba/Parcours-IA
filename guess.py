@@ -18,3 +18,9 @@ while True:
     else:
         print("Niveau de difficulté invalide. Veuillez réessayer.")
         continue   
+
+    guessing_number = random.randint(1, nombre_max)
+
+    print(f"Vous avez choisi le niveau {niveau}.\nVous devez deviner un nombre entre 1 et {nombre_max}.\nVous avez {essai} essais pour deviner le nombre.")
+    
+
