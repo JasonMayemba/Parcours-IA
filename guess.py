@@ -1,6 +1,7 @@
 import random
 
 valeur = 0
+tentative = 0
 machine = random.randint(1, 100)
 
 while valeur != machine:
