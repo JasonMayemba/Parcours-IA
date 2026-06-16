@@ -1,15 +1,8 @@
 import random
 
-valeur = 0
-tentative = 0
-machine = random.randint(1, 100)
+print("WELCOME!".center(20, "="))
+num_à_deviner = random.randint(1, 100)
+tentatives = 0
 
-while valeur != machine:
-    valeur = int(input("Entrez un nombre entre 1 et 100 : "))
-    tentative = tentative + 1 
-    if valeur < machine:
-        print("Trop petit !")
-    elif valeur > machine:
-        print("Trop grand !")
+while True:
 
-print("Bravo ! Vous avez trouvé le nombre en", tentative, "tentatives.")
